@@ -1,10 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>Coding Track Suggester</title>
   </head>
   <body>
-
+    <div class="contaier">
+      <h1>So you're interested in learning to code?!</h1>
+      <p>If you are wondering what coding track you should start, you are not alone!</P>
+      <p>Fill out the form below to help get more information on what coding track might be best for you!.</p>
+      <div class="formStyles">
+        <form id="trackerForm">
+          <div class="form-group">
+            <label for="firstName">Enter your first name:</label>
+            <input id="firstName" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="lastName">Enter your last name:</label>
+            <input id="lastName" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="city">Enter the city you live in:</label>
+            <input id="lastName" class="form-control" type="text">
+          </div>
+          <h4>What sounds most interesting:</h4>
+            <div class="radio">
+              <label><input type="radio" name="codingTrack" value="1">Java/Android</label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="codingTrack" value="2">CSS/Design
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="codingTrack" value="3">PHP/Drupal
+              </label>
+            </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
