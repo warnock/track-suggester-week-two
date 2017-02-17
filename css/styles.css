@@ -22,7 +22,7 @@ margin: 10px 0;
 }
 .jumbotron {
   margin: 0 0 10px 0;
-  background-image: url("../img/header2.jpeg");
+  background-image: url("../img/header.jpeg");
   background-size: cover;
   background-attachment: fixed;
   border-bottom: 5px solid #eee;
@@ -37,7 +37,8 @@ h1, h2 {
   font-family: 'Candal', sans-serif;
 }
 h2 {
-  color: white;
+  color: #eee;
+  font-style: oblique;
 }
 body {
   background-image: url("../img/bodyImg.jpeg");
@@ -46,4 +47,15 @@ body {
 }
 h3 {
   margin: 0;
+}
+
+@media screen and (max-width: 412px) {
+  .formStyles {
+    width: 100%;
+    margin: 0;
+  }
+  .jumbotron {
+    margin: 0;
+    border:none;
+  }
 }
