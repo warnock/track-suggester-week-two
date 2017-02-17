@@ -6,7 +6,7 @@
 
 ## Description
 
-_This web application can be used to determine what coding track someone might want to take. Enter in information into the form fields and return information about a different coding track. This application is an exercise in JavaScript and JQuery. _
+This web application can be used to determine what coding track someone might want to take. Enter in information into the form fields and return information about a different coding track. This application is an exercise in JavaScript and JQuery. 
 
 ## Setup
 Clone this repository:
