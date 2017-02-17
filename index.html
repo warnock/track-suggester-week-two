@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Candal" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
@@ -12,25 +13,27 @@
   <body>
     <div class="contaier">
       <div class="jumbotron">
-      <h1>So you're interested in learning to code?!</h1>
-      <p>If you are wondering what coding track you should start, you are not alone!</P>
-      <p>Fill out the form below to help get more information on what coding track might be best for you!</p>
+        <h1>So you're interested in learning to code?!</h1>
+        <h2>If you are wondering what coding track you should start, you are not alone!</h2>
       </div>
       <div class="formStyles">
+        <div class="instructionTxt">
+          <h3>Fill out the form below to help get more information on what coding track might be best for you!</h3>
+        </div>
         <form id="trackerForm">
-          <div class="form-group has-success">
+          <div class="form-group has-default">
             <label for="firstName">Enter your first name:</label>
             <input id="firstName" class="form-control" type="text">
           </div>
-          <div class="form-group has-success">
+          <div class="form-group has-default">
             <label for="lastName">Enter your last name:</label>
             <input id="lastName" class="form-control" type="text">
           </div>
-          <div class="form-group has-success">
+          <div class="form-group has-default">
             <label for="city">Enter the city you live in:</label>
             <input id="city" class="form-control" type="text">
           </div>
-          <div class="form-group has-success">
+          <div class="form-group has-default">
             <label for="email">If you would like to receive helpful coding tips please enter your email:</label>
             <input id="email" class="form-control" type="email">
           </div>
@@ -48,7 +51,7 @@
                 <input type="radio" name="codingTrack" value="3">PHP/Drupal
               </label>
             </div>
-          <button type="submit" class="btn">Submit</button>
+          <button type="submit" class="btn btn-default">Submit</button>
         </form>
         <div id="javaAndroidTrack">
           <h2>Java/Android Track</h2>
@@ -69,7 +72,7 @@
           <p>No matter what track appeals to you the most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
         </div>
         <div id="pleaseSelect">
-          <p>Please select track you are most interested in.</p>
+          <p>Please select one from Java/Android, CSS/Design, or PHP/Drupal.</p>
         </div>
       </div>
     </div>
