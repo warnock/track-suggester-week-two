@@ -1,4 +1,4 @@
-#javaAndroidTrack, #cssDesignTrack, #phpDrupalTrack {
+#javaAndroidTrack, #cssDesignTrack, #phpDrupalTrack, #pleaseSelect {
   display:none;
 }
 .formStyles {
@@ -6,4 +6,5 @@
   margin: auto;
   background-color: gray;
   padding: 20px;
+  border-radius: 10px;
 }

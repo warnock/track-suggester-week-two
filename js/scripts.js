@@ -8,6 +8,13 @@ $(document).ready(function(){
     $(".firstName").text(firstName);
     $(".city").text(city);
 
+    if (codingTrack === "1", "2","3") {
+      $("#pleaseSelect").show();
+      $("#cssDesignTrack").hide();
+      $("#phpDrupalTrack").hide();
+      $("#javaAndroidTrack").hide();
+    }
+
     if (codingTrack === "1"){
       $("#javaAndroidTrack").show();
       $("#cssDesignTrack").hide();
@@ -24,7 +31,7 @@ $(document).ready(function(){
 
     event.preventDefault();
   });
-  
+
   $(".btn").click(function() {
     $("#phpDrupalTrack").slideDown();
     $("#cssDesignTrack").slideDown();
