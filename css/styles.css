@@ -49,7 +49,7 @@ h3 {
   margin: 0;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 500px) {
   .formStyles {
     width: 100%;
     margin: 0;
