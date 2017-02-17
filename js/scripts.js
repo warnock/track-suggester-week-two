@@ -19,22 +19,26 @@ $(document).ready(function(){
       $("#javaAndroidTrack").show();
       $("#cssDesignTrack").hide();
       $("#phpDrupalTrack").hide();
+      $("#pleaseSelect").hide();
     } else if (codingTrack === "2") {
       $("#cssDesignTrack").show();
       $("#javaAndroidTrack").hide();
       $("#phpDrupalTrack").hide();
+      $("#pleaseSelect").hide();
     } else if (codingTrack === "3") {
       $("#phpDrupalTrack").show();
       $("#cssDesignTrack").hide();
       $("#javaAndroidTrack").hide();
+      $("#pleaseSelect").hide();
     }
 
     event.preventDefault();
   });
 
   $(".btn").click(function() {
-    $("#phpDrupalTrack").slideDown();
-    $("#cssDesignTrack").slideDown();
-    $("#javaAndroidTrack").slideDown();
+    $("#phpDrupalTrack").fadeIn();
+    $("#cssDesignTrack").fadeIn();
+    $("#javaAndroidTrack").fadeIn();
+    $("#pleaseSelect").fadeIn();
   });
 });

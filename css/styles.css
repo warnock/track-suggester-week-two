@@ -1,14 +1,20 @@
 #javaAndroidTrack, #cssDesignTrack, #phpDrupalTrack, #pleaseSelect {
   display:none;
 }
+#javaAndroidTrack h2, #cssDesignTrack h2, #phpDrupalTrack h2 {
+  color:black;
+  margin: 10px 0;
+}
+#pleaseSelect h3 {
+margin: 10px 0;
+}
 .formStyles {
   width: 50%;
-  margin: auto;
-  margin-bottom: 20px;
+  margin: 20px auto;
+
   background-color: #eee;
   padding: 20px;
-
-  border: 10px solid gray;
+  border: 5px solid gray;
 }
 .instructionTxt {
   text-align: center;
@@ -19,7 +25,7 @@
   background-image: url("../img/header2.jpeg");
   background-size: cover;
   background-attachment: fixed;
-  border-bottom: 10px solid #eee;
+  border-bottom: 5px solid #eee;
 }
 h1, h2 {
   margin-left: 10%;
@@ -33,9 +39,11 @@ h1, h2 {
 h2 {
   color: white;
 }
-
 body {
   background-image: url("../img/bodyImg.jpeg");
   background-size: cover;
   background-attachment: fixed;
+}
+h3 {
+  margin: 0;
 }
