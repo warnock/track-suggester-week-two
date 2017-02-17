@@ -1,3 +1,9 @@
 #javaAndroidTrack, #cssDesignTrack, #phpDrupalTrack {
   display:none;
 }
+.formStyles {
+  width: 80%;
+  margin: auto;
+  background-color: gray;
+  padding: 20px;
+}

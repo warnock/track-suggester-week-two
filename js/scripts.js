@@ -22,7 +22,12 @@ $(document).ready(function(){
       $("#javaAndroidTrack").hide();
     }
 
-    console.log(codingTrack)
     event.preventDefault();
+  });
+  
+  $(".btn").click(function() {
+    $("#phpDrupalTrack").slideDown();
+    $("#cssDesignTrack").slideDown();
+    $("#javaAndroidTrack").slideDown();
   });
 });
