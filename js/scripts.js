@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 //interface logic
 $(document).ready(function(){
   $("#trackerForm").submit(function(event){
@@ -19,8 +13,6 @@ $(document).ready(function(){
     event.preventDefault();
 
     var totalScore = questionOne + questionTwo + questionThree + questionFour + questionFive;
-
-
 
     if (totalScore <= 5){
       $("#cssDesignTrack").show();
@@ -37,12 +29,9 @@ $(document).ready(function(){
     } else if (totalScore == ""){
       $("#pleaseSelect").show();
     }
-    console.log(totalScore)
+    
     $(".firstName").text(firstName);
     $(".city").text(city);
-
-
-
   });
 });
 
