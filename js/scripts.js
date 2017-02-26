@@ -18,18 +18,21 @@ $(document).ready(function(){
       $("#cssDesignTrack").show();
       $("#javaAndroidTrack").hide();
       $("#phpDrupalTrack").hide();
+      $("#pleaseSelect").hide();
     } else if (totalScore >=6 && totalScore <=25){
       $("#javaAndroidTrack").show();
       $("#phpDrupalTrack").hide();
       $("#cssDesignTrack").hide();
+      $("#pleaseSelect").hide();
     } else if (totalScore >=26) {
       $("#phpDrupalTrack").fadeIn();
       $("#javaAndroidTrack").hide();
       $("#cssDesignTrack").hide();
-    } else if (totalScore == ""){
+      $("#pleaseSelect").hide();
+    } else {
       $("#pleaseSelect").show();
     }
-    
+
     $(".firstName").text(firstName);
     $(".city").text(city);
   });
